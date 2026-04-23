@@ -1,1 +1,28 @@
-
+{
+  "name": "mkagent",
+  "version": "1.0.0",
+  "description": "AI Multi-Agent System for Content Creation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "orchestrator",
+    "content-creation"
+  ],
+  "author": "mkmass971",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
